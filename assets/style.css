@@ -1,0 +1,135 @@
+body {
+  background-image: url('../assets/images/background.png');
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+}
+
+nav.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0px;
+}
+
+.logo {
+  background-color: #4aaaa5;
+  color: #fff;
+  font-size: 25px;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+h1.title {
+  color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+hr.line {
+  border: 1px solid #777777;
+  opacity: 0.2;
+}
+
+.mainContent {
+  background-color: #fff;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  padding: 15px;
+  border-radius: 10px;
+  line-height: 32px;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.portfolioContent {
+  background-color: #fff;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  border-radius: 10px;
+  padding: 15px;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+footer {
+  border-top: 8px solid #4aaaa5;
+  background-color: #666666;
+  text-align: center;
+  padding-top: 25px;
+  color: rgb(172, 172, 172);
+  height: 60px;
+}
+
+.avatar {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.gallery {
+  height: 90%;
+  width: 90%;
+  padding: 15px;
+}
+
+img.thumbnail {
+  width: 100%;
+}
+
+div.banner {
+  position: relative;
+  top: -65px;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  margin-right: 15px;
+  width: 100%;
+  z-index: 1;
+  background-color: #4aaaa5;
+}
+
+input[type=text] {
+  padding: 5px;
+  height: 30px;
+  border-style: solid;
+  border-radius: 0px;
+  border-width: 1px;
+  border-color: #d3d3d3;
+}
+
+input[type=email] {
+  padding: 5px;
+  height: 30px;
+  border-style: solid;
+  border-radius: 0px;
+  border-width: 1px;
+  border-color: #d3d3d3;
+}
+
+textarea.message {
+  padding: 5px;
+  border-style: solid;
+  border-radius: 0px;
+  border-width: 1px;
+  border-color: #d3d3d3;
+}
+
+button[type=submit] {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #4aaaa5;
+  color: #fff;
+  border: 0;
+  border-radius: 0px;
+}
