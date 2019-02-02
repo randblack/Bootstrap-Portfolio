@@ -10,11 +10,16 @@ nav.navbar {
   padding-left: 0px;
 }
 
+div.navbar-nav {
+  margin-right: 18%;
+}
+
 .logo {
   background-color: #4aaaa5;
   color: #fff;
   font-size: 25px;
   height: 100%;
+  margin-left: 12.25%;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 25px;
@@ -133,3 +138,18 @@ button[type=submit] {
   border: 0;
   border-radius: 0px;
 }
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    margin-left: 0px;
+  }
+
+  div.navbar-nav {
+    margin-right: 0%;
+  }
+}
+
+
+
+
+
