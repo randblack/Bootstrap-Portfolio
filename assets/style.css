@@ -8,6 +8,7 @@ nav.navbar {
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 0px;
+  border-bottom: 1px solid #dfdfdf;
 }
 
 div.navbar-nav {
@@ -146,6 +147,14 @@ button[type=submit] {
 
   div.navbar-nav {
     margin-right: 0%;
+  }
+
+  .nav-item {
+    margin-left: 25px;
+  }
+
+  .linkBorder {
+    border-bottom: 1px solid #dfdfdf;
   }
 }
 
