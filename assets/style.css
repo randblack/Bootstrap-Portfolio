@@ -103,6 +103,23 @@ div.banner {
   background-color: #4aaaa5;
 }
 
+h2.banner {
+  position: absolute;
+  z-index: 1;
+  margin-right: 7.5px;
+  bottom: 25px;
+  background-color: #4aaaa5;
+  color: #fff;
+  width: calc(100% - 30px);
+  text-align: center;
+  padding: 4%;
+  box-sizing:border-box;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: 300;
+  font-size: 15pt;
+}
+
+
 input[type=text] {
   padding: 5px;
   height: 30px;
