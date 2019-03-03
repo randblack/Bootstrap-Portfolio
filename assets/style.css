@@ -16,7 +16,7 @@ div.navbar-nav {
 }
 
 .logo {
-	background-color: #rgb(26, 26, 26);
+	background-color: rgb(26, 26, 26);
 	color: #fff;
 	font-size: 25px;
 	height: 100%;
@@ -64,7 +64,7 @@ hr.line {
 }
 
 footer {
-	border-top: 8px solid #4aaaa5;
+	border-top: 8px solid rgb(26, 26, 26);
 	background-color: #666666;
 	text-align: center;
 	padding-top: 25px;
